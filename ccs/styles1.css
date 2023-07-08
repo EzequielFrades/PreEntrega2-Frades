@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #7c7878;
+    height: 100vh;
 }
 
 .container {
@@ -95,4 +96,7 @@ footer {
     padding: 10px;
     text-align: center;
     margin-top: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
 }
