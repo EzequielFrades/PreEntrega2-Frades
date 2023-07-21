@@ -1,12 +1,3 @@
-/* Estilos generales */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #7c7878;
-    height: 100vh;
-}
-
 .container {
     max-width: 960px;
     margin: 0 auto;
@@ -43,52 +34,29 @@ nav a {
     color: #000;
     border-radius: 5px;
 }
-
 main {
     padding: 20px;
 }
 
-.contact-container {
-    display: flex;
-    justify-content: center;
-}
 
-.contact-form {
-    width: 100%;
-    max-width: 400px;
-}
-
-.contact-form h1 {
+.faq-section {
     text-align: center;
-}
-
-.form-group {
     margin-bottom: 20px;
 }
 
-label {
-    display: block;
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.question {
+    font-size: 24px;
     font-weight: bold;
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
-button[type="submit"] {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #f2f2f2;
-    color: #000;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.answer {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
 }
 
 footer {
@@ -96,7 +64,8 @@ footer {
     padding: 10px;
     text-align: center;
     margin-top: 20px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    width: 100vw;
+    left: 0;
+    width: 100%;
 }
