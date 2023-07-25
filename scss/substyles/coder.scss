@@ -9,7 +9,16 @@ body {
     background: hsla(185, 84%, 38%, 1);
     background: linear-gradient(90deg, hsla(185, 84%, 38%, 1) 0%, hsla(60, 70%, 67%, 1) 25%, hsla(266, 65%, 58%, 1) 50%, hsla(219, 86%, 60%, 1) 75%, hsla(0, 0%, 0%, 1) 100%);
 }
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
 
+.logo img {
+    width: 40px; 
+    height: auto;
+}
 .navbar-brand {
     font-weight: bold;
 }
