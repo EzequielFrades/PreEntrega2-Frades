@@ -1,35 +1,18 @@
-/* Estilos generales */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background: hsla(185, 84%, 38%, 1);
-    background: linear-gradient(90deg, hsla(185, 84%, 38%, 1) 0%, hsla(60, 70%, 67%, 1) 25%, hsla(266, 65%, 58%, 1) 50%, hsla(219, 86%, 60%, 1) 75%, hsla(0, 0%, 0%, 1) 100%);
-}
-.navbar-brand {
-    font-weight: bold;
+.displey {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.navbar-nav {
-    margin-left: auto;
+.content h1 {
+    text-decoration: underline;
 }
-
-.nav-link {
-    margin-right: 10px;
-}
-
-
-.container {
-    padding-top: 20px;
-    padding-bottom: 60px;
-}
-
 .content {
     text-align: center;
     padding: 20px;
+    color :black;
+    width: 50%;
+    font-size: large;
 }
 
 .image-container {
@@ -37,25 +20,11 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    background-color: transparent;
+    filter: brightness(.75);
 }
 
 .image-container img {
     max-width: 100%;
-    height: auto;
-}
-
-.git-icon {
-    font-size: 24px;
-    color: #000;
-    margin-right: 5px;
-}
-
-footer {
-    background-color: #fafafa;
-    padding: 10px;
-    text-align: center;
-    margin-top: 20px;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
+    height: 600px;
 }
