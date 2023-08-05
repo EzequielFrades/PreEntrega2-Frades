@@ -11,6 +11,17 @@ body {
   background: linear-gradient(90deg, hsl(185, 84%, 38%) 0%, hsl(60, 70%, 67%) 25%, hsl(266, 65%, 58%) 50%, hsl(219, 86%, 60%) 75%, hsl(0, 0%, 0%) 100%);
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 60px;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
 .navbar-brand {
   font-weight: bold;
 }
@@ -76,8 +87,8 @@ header {
 }
 
 .logo {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   background: url(path/to/logo.png) no-repeat center center;
   background-size: contain;
   margin-right: 10px;
@@ -163,7 +174,7 @@ footer {
 
 /* Estilos para la barra de navegación */
 header {
-  background-color: #fcfcfc;
+  background-color: #eeecec;
   padding: 10px;
 }
 
@@ -179,7 +190,6 @@ header {
   margin-right: 10px;
 }
 
-/* Estilos para la presentación de persona */
 img {
   max-width: 50%;
   height: auto;
@@ -194,14 +204,16 @@ img {
 }
 
 .person-info h2 {
-  font-size: 24px;
+  font-size: 28px;
   margin-bottom: 10px;
+  color: black;
+  font-weight: bold;
 }
 
 .person-info p {
-  font-size: 16px;
-  color: #555;
-  line-height: 1.5;
+  font-size: 18px;
+  color: black;
+  line-height: 1.6;
 }
 
 footer {
