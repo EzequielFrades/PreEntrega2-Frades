@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: linear-gradient(90deg, hsla(263, 85%, 37%, 1) 0%, hsla(40, 33%, 96%, 1) 50%, hsla(50, 53%, 72%, 1) 100%);
+    background: linear-gradient(90deg, rgb(139, 88, 233) 0%, hsla(40, 33%, 96%, 1) 50%, hsla(50, 53%, 72%, 1) 100%);
 }    
 
 /* navegador */
@@ -55,8 +55,10 @@ nav a {
 
 .nav-link {
     margin-right: 10px;
+    transition: 200ms all ease-in-out;
 }    
-
+.nav-link:hover {transform: scale(1.5); 
+}
 
  /*contenido pagina*/
 .container {
@@ -73,7 +75,7 @@ footer {
     text-align: center;
     margin-top: 20px;
     width: 100%;
-    position: absolute;
+    position: fixed ;
     bottom: 0;
     width: 100%;
 }    
